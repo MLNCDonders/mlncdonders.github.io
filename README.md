@@ -1,5 +1,5 @@
 # mlncdonders.github.io
-Website for Radboud University Department of Machine Learning and Natural Computing
+Website for Radboud University Department of Machine Learning and Neural Computing
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
