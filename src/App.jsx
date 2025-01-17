@@ -12,7 +12,7 @@ import News from "./screens/News";
 function App() {
 
   return (
-    <BrowserRouter basename="/mlncdonders.github.io/">
+    <BrowserRouter basename="/">
     <Navbar></Navbar>
 
       <Routes>
