@@ -1,42 +1,40 @@
 import React from "react";
 import { Container, Typography, Box } from "@mui/material";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 function TweetsSection() {
   const twitterHandle = "artcogsys"; // Replace with the desired Twitter handle
-  if (window.twttr) {
-    window.twttr.widgets.load();
-  }
-  return (
-    <Container
-      maxWidth="xl"
-      sx={{
-        mt: 4,
-        mb: 4,
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-      }}
-    >
-      {/* <Typography
-        variant="h4"
-        sx={{ fontWeight: "bold", color: "#510648", mb: 2 }}
+
+    return (
+      <Container
+        maxWidth="xl"
+        sx={{
+          mt: 4,
+          mb: 4,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
       >
-        {twitterHandle} Tweets
-      </Typography> */}
-      <Box sx={{ width: "85vw", overflow: "hidden" }}>
-        <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName={twitterHandle}
-           options={{ height: "500%", width: "100%" }}
-           noHeader
-        //   noBorders
-           noFooter
-          theme="light"
-        />
-      </Box>
-    </Container>
-  );
+        {/* <Typography
+          variant="h4"
+          sx={{ fontWeight: "bold", color: "#510648", mb: 2 }}
+        >
+          {twitterHandle} Tweets
+        </Typography> */}
+        <Box sx={{ width: "85vw", overflow: "hidden" }}>
+          {/* <TwitterTimelineEmbed
+            sourceType="profile"
+            screenName={twitterHandle}
+             options={{ height: "500%", width: "100%" }}
+             noHeader
+          //   noBorders
+             noFooter
+            theme="light"
+          /> */}
+        </Box>
+      </Container>
+    );
+  
 }
 
 export default TweetsSection;
