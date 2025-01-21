@@ -20,7 +20,7 @@ function News() {
 
   return (
     <Fade in timeout={1000}>
-    <Container maxWidth="xl" sx={{ mt: 4, mb: 4, minHeight:'70vh' }}>
+    <Container maxWidth="xl" sx={{ mt: '15vh', mb: 4, minHeight:'70vh' }}>
       {/* <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold', textAlign: 'center', mb: 4 }}>
         News
       </Typography> */}

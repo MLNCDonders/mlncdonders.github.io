@@ -12,7 +12,7 @@ import {
 function People() {
   return (
     <Fade in timeout={1000}>
-      <Container maxWidth="xl" sx={{ mt: 4, mb: 4, padding:{md:'0 10vw',lg:'0 0'} }}>
+      <Container maxWidth="xl" sx={{ mt: '15vh', mb: 4, padding:{md:'0 10vw',lg:'0 0'} }}>
         <Typography
           variant="h4"
           gutterBottom

@@ -6,7 +6,7 @@ import BookIcon from "@mui/icons-material/Book";
 
 function Education() {
   return (
-    <Container maxWidth="xl" sx={{ mt: "10vh", mb: 4, height: "70vh", padding:{md:'0 10vw',lg:'0 0'} }}>
+    <Container maxWidth="xl" sx={{ mt: "15vh", mb: 4, height: "70vh", padding:{md:'0 10vw',lg:'0 0'} }}>
       <Fade in timeout={1000}>
         <Typography
           variant="h3"

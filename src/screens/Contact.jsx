@@ -3,7 +3,7 @@ import { Container, Box, Typography, Grid, Paper, Avatar, Fade } from "@mui/mate
 
 function Contact() {
   return (
-    <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
+    <Container maxWidth="xl" sx={{ mt: '10vh', mb: 4 }}>
         <Fade in timeout={1000}>
       <Paper
         elevation={0}

@@ -69,7 +69,7 @@ function Publications() {
     <Container
       maxWidth="xl"
       sx={{
-        mt: "10vh",
+        mt: "15vh",
         // height: "70vh",
         mb: 4,
         padding: { md: "0 10vw", lg: "0 0" },
