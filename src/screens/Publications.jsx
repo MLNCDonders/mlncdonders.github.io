@@ -19,7 +19,7 @@ const publications = [
   {
     title: "Publication 2",
     abstract:
-      "This is the abstract for publication 2. It provides a brief summary of the research and findings.",
+      "This is the abstract for publication 2. It provides a brief summary of the research and findings..",
   },
   {
     title: "Publication 3",
