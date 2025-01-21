@@ -14,7 +14,6 @@ function App() {
   return (
     <BrowserRouter basename="/">
     <Navbar></Navbar>
-
       <Routes>
         <Route path="/" element={<Homepage></Homepage>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
